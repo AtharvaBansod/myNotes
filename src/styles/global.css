@@ -892,7 +892,7 @@
     }
 
     .note-header{
-flex-direction: column;
+    flex-direction: column;
     }
     
     .add-note-btn span {
