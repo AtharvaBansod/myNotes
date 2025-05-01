@@ -880,7 +880,19 @@
     }
     
     .notes-container.grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    .note-actions{
+   gap: 20px;
+    }
+    .note-actions button {
+      width: 10px;
+      height: 32px;
+      
+    }
+
+    .note-header{
+flex-direction: column;
     }
     
     .add-note-btn span {
